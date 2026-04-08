@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbhinavSunil V V | Data Scientist Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of AbhinavSunil V V, Data Scientist and AI/ML enthusiast based in Kozhikode, India. Showcasing machine learning, data science, and predictive modeling projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="nn-bg"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">AS</div>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="section hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Kozhikode • Kerala • India</p>
+            <h1>
+              Abhinav<span>Sunil</span> V V
+            </h1>
+            <h2>Data Scientist&nbsp;|&nbsp;AI &amp; Machine Learning Enthusiast</h2>
+            <p class="hero-headline">
+              “Building intelligent systems and predictive models using machine
+              learning and data-driven insights.”
+            </p>
+            <p class="hero-summary">
+              Data Scientist with hands-on experience applying supervised and
+              unsupervised machine learning techniques to structured datasets
+              exceeding 50,000 records. Experienced across the full data
+              science lifecycle including exploratory analysis, feature
+              engineering, predictive modeling, and rigorous performance
+              evaluation.
+            </p>
+            <div class="hero-cta-row">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn ghost">Contact Me</a>
+              <a
+                href="#"
+                class="link-inline"
+                id="download-resume"
+                aria-label="Download resume"
+                >Download Resume</a
+              >
+            </div>
+            <div class="hero-metrics">
+              <div class="metric">
+                <span class="metric-value">50K+</span>
+                <span class="metric-label">Records processed</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">92%</span>
+                <span class="metric-label">Best model accuracy</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">30%</span>
+                <span class="metric-label">Preprocessing effort reduced</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-profile">
+            <div class="profile-card">
+              <div class="profile-avatar">
+                <img
+                  src="profile.jpeg"
+                  alt="Portrait of AbhinavSunil V V"
+                  loading="lazy"
+                />
+              </div>
+              <div class="profile-meta">
+                <p class="profile-title">Data Scientist</p>
+                <p class="profile-location">Kozhikode, Kerala, India</p>
+                <div class="profile-tags">
+                  <span>Machine Learning</span>
+                  <span>Predictive Modeling</span>
+                  <span>Data Storytelling</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="section-header">
+            <p class="eyebrow">About</p>
+            <h3>Turning complex data into clear, actionable intelligence.</h3>
+          </div>
+          <div class="section-body">
+            <p>
+              I am a Data Scientist and aspiring AI/ML Engineer focused on
+              designing, building, and evaluating intelligent systems that solve
+              real-world problems. My work spans the complete data science
+              lifecycle—from data collection and cleansing, through exploratory
+              data analysis and feature engineering, to model development,
+              evaluation, and deployment-ready prototypes.
+            </p>
+            <p>
+              I enjoy working with large, noisy, and high-dimensional datasets,
+              leveraging statistical analysis and machine learning techniques to
+              uncover structure and patterns that drive measurable business
+              outcomes. I am comfortable working autonomously, building
+              reproducible pipelines, and communicating results through clear,
+              insight-focused visualizations.
+            </p>
+            <div class="pill-grid">
+              <div class="pill-group">
+                <h4>Core strengths</h4>
+                <ul>
+                  <li>Machine learning model development</li>
+                  <li>Statistical analysis &amp; experimentation</li>
+                  <li>Feature engineering &amp; data preprocessing</li>
+                  <li>Data storytelling through visualization</li>
+                </ul>
+              </div>
+              <div class="pill-group">
+                <h4>How I work</h4>
+                <ul>
+                  <li>Structured, experiment-driven approach</li>
+                  <li>Focus on explainability and stability</li>
+                  <li>Obsessed with data quality and validation</li>
+                  <li>Bias for shipping robust, pragmatic solutions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-header align-center">
+            <p class="eyebrow">Capabilities</p>
+            <h3>Technical skills across the full data science lifecycle.</h3>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h4>Programming &amp; Scripting</h4>
+              <ul>
+                <li>Python</li>
+                <li>SQL (Joins, Aggregations, Window Functions)</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Data Science Lifecycle</h4>
+              <ul>
+                <li>Data Collection &amp; Assembly</li>
+                <li>Data Cleansing &amp; Validation</li>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Feature Engineering</li>
+                <li>Prototype Development</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Machine Learning</h4>
+              <p class="subtle-label">Supervised &amp; Unsupervised</p>
+              <ul class="chips">
+                <li>Logistic Regression</li>
+                <li>KNN</li>
+                <li>Decision Trees</li>
+                <li>Random Forest</li>
+                <li>Gradient Boosting</li>
+                <li>XGBoost</li>
+                <li>Support Vector Machines</li>
+                <li>Isolation Forest</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Statistics &amp; Mathematics</h4>
+              <ul>
+                <li>Hypothesis Testing</li>
+                <li>Probability Distributions</li>
+                <li>Statistical Modeling</li>
+                <li>Bias-Variance Analysis</li>
+                <li>Optimization Techniques</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Tools &amp; Technologies</h4>
+              <ul class="chips">
+                <li>Scikit-learn</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Matplotlib</li>
+                <li>Apache Spark (Basic)</li>
+                <li>Git</li>
+                <li>Jupyter Notebook</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Model Evaluation</h4>
+              <ul>
+                <li>Cross-Validation</li>
+                <li>ROC-AUC</li>
+                <li>F1-Score</li>
+                <li>Precision-Recall</li>
+                <li>Confusion Matrix</li>
+                <li>Feature Importance Analysis</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h4>Visualization &amp; Reporting</h4>
+              <ul>
+                <li>Matplotlib</li>
+                <li>Tableau (Basic)</li>
+                <li>D3.js (Basic)</li>
+                <li>Dashboard creation &amp; reporting</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Experience</p>
+            <h3>Professional experience</h3>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h4>Data Scientist Intern</h4>
+                    <p class="org">Catalyst Skill-Hub</p>
+                  </div>
+                  <div class="timeline-meta">
+                    <p>Aug 2025 – Present</p>
+                    <p>Kozhikode, Kerala, India</p>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    Processed and validated <strong>50,000+ data records</strong>
+                    using structured data cleansing workflows.
+                  </li>
+                  <li>
+                    Reduced preprocessing effort by
+                    <strong>30%</strong> through optimized, reusable pipelines.
+                  </li>
+                  <li>
+                    Developed classification models improving prediction accuracy
+                    from <strong>78% to 92%</strong>.
+                  </li>
+                  <li>
+                    Applied feature engineering and cross-validation techniques
+                    to enhance model stability and generalization.
+                  </li>
+                  <li>
+                    Optimized SQL queries, improving data retrieval performance
+                    by <strong>50%</strong>.
+                  </li>
+                  <li>
+                    Built evaluation frameworks using ROC-AUC, F1-score, and
+                    cross-validation.
+                  </li>
+                  <li>
+                    Produced visualization reports and dashboards translating
+                    analytical results into actionable insights.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-header align-center">
+            <p class="eyebrow">Projects</p>
+            <h3>Machine learning projects with measurable impact.</h3>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <h4>Telecom Customer Churn Prediction</h4>
+                <p class="project-tag">Supervised Learning • Classification</p>
+              </div>
+              <p class="project-problem">
+                <strong>Problem:</strong> Predict which telecom customers are
+                likely to churn to enable proactive retention strategies.
+              </p>
+              <p class="project-dataset">
+                <strong>Dataset:</strong> 7,000+ customer records including
+                demographics, usage patterns, and contract attributes.
+              </p>
+              <p class="project-methods">
+                <strong>Methods:</strong> EDA and feature engineering, handling
+                imbalanced data using SMOTE, training and tuning multiple
+                classification models (Logistic Regression, Random Forest,
+                Gradient Boosting, XGBoost) using GridSearchCV, and model
+                selection based on ROC-AUC and recall.
+              </p>
+              <ul class="project-results">
+                <li>Improved minority class recall by <strong>18%</strong>.</li>
+                <li>
+                  Identified behavioral churn drivers using feature importance
+                  analysis.
+                </li>
+                <li>
+                  Delivered interpretable model outputs for business teams to
+                  act on.
+                </li>
+              </ul>
+              <a
+                href="https://github.com/abhinavping"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+              >
+                View on GitHub
+                <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h4>Real-Time Credit Card Fraud Detection</h4>
+                <p class="project-tag">Supervised &amp; Anomaly Detection</p>
+              </div>
+              <p class="project-problem">
+                <strong>Problem:</strong> Detect fraudulent credit card
+                transactions in near real-time while minimizing false negatives.
+              </p>
+              <p class="project-dataset">
+                <strong>Dataset:</strong> Highly imbalanced transactional data
+                with anonymized features and timestamped events.
+              </p>
+              <p class="project-methods">
+                <strong>Methods:</strong> Built a hybrid approach combining
+                supervised classification models with anomaly detection (Isolation
+                Forest), used stratified cross-validation, cost-sensitive
+                learning, and threshold tuning to balance precision and recall.
+              </p>
+              <ul class="project-results">
+                <li>
+                  Reduced false negatives by <strong>24%</strong> while keeping
+                  false positives controlled.
+                </li>
+                <li>
+                  Improved ROC-AUC by <strong>10%</strong> over baseline models.
+                </li>
+                <li>
+                  Built lightweight predictive prototypes with minimal
+                  supervision.
+                </li>
+              </ul>
+              <a
+                href="https://github.com/abhinavping"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+              >
+                View on GitHub
+                <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Certifications -->
+      <section id="education" class="section">
+        <div class="container two-col">
+          <div>
+            <div class="section-header">
+              <p class="eyebrow">Education</p>
+              <h3>Academic background</h3>
+            </div>
+            <div class="edu-card">
+              <h4>Bachelor of Science in Computer Science</h4>
+              <p class="org">Calicut University</p>
+              <p class="meta">2022 – 2025 • Korangad, Kerala, India</p>
+            </div>
+          </div>
+          <div>
+            <div class="section-header">
+              <p class="eyebrow">Certifications</p>
+              <h3>Validated expertise</h3>
+            </div>
+            <div class="edu-card">
+              <h4>Data Scientist Certification</h4>
+              <p class="org">Catalyst Skill-Hub</p>
+              <p class="meta">2026</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-alt">
+        <div class="container contact-grid">
+          <div>
+            <div class="section-header">
+              <p class="eyebrow">Contact</p>
+              <h3>Let’s build data-driven solutions.</h3>
+            </div>
+            <p>
+              I am actively exploring opportunities in data science and AI/ML
+              where I can contribute to building predictive models, analytics
+              workflows, and intelligent products. Feel free to reach out for
+              roles, collaborations, or project ideas.
+            </p>
+            <div class="contact-details">
+              <div class="contact-group">
+                <h4>Direct</h4>
+                <a href="mailto:abhinavsunilvv@gmail.com"
+                  >abhinavsunilvv@gmail.com</a
+                >
+                <a href="tel:+919778361836">+91 97783 61836</a>
+              </div>
+              <div class="contact-group">
+                <h4>Profiles</h4>
+                <a
+                  href="https://www.linkedin.com/in/abhinav-sunil-vv-090406366"
+                  target="_blank"
+                  rel="noreferrer"
+                  >LinkedIn</a
+                >
+                <a
+                  href="https://github.com/abhinavping"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub</a
+                >
+              </div>
+              <div class="contact-group">
+                <h4>Location</h4>
+                <p>Kozhikode, Kerala, India</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h4>Contact Form</h4>
+            <form
+              class="contact-form"
+              action="mailto:abhinavsunilvv@gmail.com"
+              method="POST"
+              enctype="text/plain"
+            >
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="How can we work together?"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary full-width">
+                Send Message
+              </button>
+              <p class="form-hint">
+                This form uses your default email client to send the message.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> AbhinavSunil V V. All rights reserved.</p>
+        <p class="footer-note">
+          Built with a focus on data, clarity, and impact.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
